@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<div class="flights">
+			<button id="add" class="menu-btn">Add</button><button id="delete" class="menu-btn">Delete</button><button id="search" class="menu-btn">Search</button><button id="refresh" class="menu-btn">Refresh</button>
+			<table id="FlightsTable">
+				<tr>
+					<th id="th_id">Id</th>
+					<th id="th_flight_number">Flight number</th>
+					<th id="th_origin_number">Origin airport</th>
+					<th id="th_destination_airport">Destination airport</th>
+					<th id="th_carrier">Carrier</th>
+					<th id="th_price">Price</th>
+					<th id="th_day">Day</th>
+					<th id="th_time">Time</th>
+					<th id="th_time">Duration</th>
+					<th id="th_available_seats">Available seats</th>
+					<tbody id="tbody"></tbody>
+				</tr>
+			</table>
+		</div>
+
+		<div id="user_input" class="modal">
+			<div id="content">
+				<form>
+					Flight number:<br />
+					<input id="flight-number" type="text" class="input"></input>
+					<br />
+					Origin airport:<br />
+					<input id="origin-airport" type="text" class="input"></input>
+					<br />
+					Destination airport:<br />
+					<input id="destination-airport" type="text" class="input"></input>
+					<br />
+					Carrier:<br />
+					<input id="carrier" type="text" class="input"></input>
+					<br />
+					Price:<br />
+					<input id="price" type="text" class="input"></input>
+					<br />
+					Day:<br />
+					<input id="day" type="text" class="input"></input>
+					<br />
+					Time:<br />
+					<input id="time" type="text" class="input"></input>
+					<br />
+					Duration:<br />
+					<input id="duration" type="text" class="input"></input>
+					<br />
+					Available seats:<br />
+					<input id="available-seats" type="text" class="input"></input>
+				</form>
+				<div id="buttons">
+				<button id="confirm" class="menu-btn">CONFIRM</button>
+				<button id="cancel" class="menu-btn">CANCEL</button>	
+				</div>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   	 	<script src="script.js"></script>
+	</body>
+</html>

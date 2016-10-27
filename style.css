@@ -1,0 +1,89 @@
+#FlightsTable {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+#FlightsTable td, #FlightsTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+#FlightsTable tr:hover {background-color: #ddd;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.menu-btn {
+	border-radius: 5px;
+	border: 0px;
+	color: #FFFFFF;
+	background-color: #00cc44;
+	font-size: 20px;
+	margin-bottom: 4px;
+	margin-right:4px;
+	padding: 7px;
+}
+
+.menu-btn:hover {
+	background-color: #4dff88;
+	}
+
+.menu-btn:active {
+	position: relative;
+	top: 2px;
+}
+
+.clicked {
+	background-color: #ddd;
+}
+
+.modal {
+	display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#content {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background-color: rgb(64, 242, 153);
+}
+
+form {
+	color: white;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.input {
+	background-color: rgb(17, 238, 128);
+	border-style: none;
+	border-width: 1px;
+	outline: none;
+	opacity:0.9;
+	height: 30px;
+	font-size:20px;
+	width: 100%;
+}
+
+.input:focus {
+	background-color: rgb(15, 215, 115);
+}
