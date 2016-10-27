@@ -141,14 +141,6 @@ $(document).ready(function() {
 		var Time = $('#time').val();
 		var Duration = $('#duration').val();
 		var Available_seats = $('#available-seats').val();
-		/*console.log(Origin_airport);
-		console.log(Destination_airport);
-		console.log(Carrier);
-		console.log(Price);
-		console.log(Day);
-		console.log(Time);
-		console.log(Duration);
-		console.log(Available_seats);*/
 
 		if(status_edit_add == 'add') {
 			$.ajax({
